@@ -1,7 +1,8 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row,  Button } from 'react-bootstrap';
 import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 // import spinner from '../../../images/service-loder.gif';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
 import './Services.css';
@@ -20,8 +21,8 @@ const Services = () => {
     return (
         <section className="services" id='service'>
             <Container>
-                <h5>What We Do</h5>
-                <h3>Services We Provide</h3>
+                {/* <h5>What We Do</h5> */}
+                <h3>Feature Bikes </h3>
                 <Row className="mt-5 justify-content-center">
                     {
                         services.length > 0 ?
@@ -31,7 +32,10 @@ const Services = () => {
                                 {/* <img className='img-fluid' src={spinner} alt="..." /> */}
                             </div>
                     }
+                    <Button className="mt-5 justify-content-center align-item-center main-button" as={Link} to='/allServices' variant="info" >All Bikes</Button>
+
                 </Row>
+                
             </Container>
         </section>
     );

@@ -24,8 +24,9 @@ const AllServices = () => {
             <section className="services" id="services">
 
                 <Container>
-                    <h5>What We Do</h5>
-                    <h3>Services We Provide</h3>
+                    <h3>Our All Super Bikes</h3>
+
+                    
                     <Row className="mt-5 justify-content-center">
                         {
                             services.length > 0 ?

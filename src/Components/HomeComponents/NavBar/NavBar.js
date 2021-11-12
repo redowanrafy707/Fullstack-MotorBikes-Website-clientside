@@ -35,7 +35,7 @@ const NavBar = () => {
                       <Nav.Link smooth as={HashLink} to='/home#reviews' className="mr-3"><strong>Reviews</strong></Nav.Link>
                       <Nav.Link  smooth as={HashLink} to="/home#contact"  className="mr-3"><strong>Contact</strong></Nav.Link>
                       <Nav.Link   as={Link} to="/dashboard/profile"  className="mr-3"><strong>Dashboard</strong></Nav.Link>
-              <Nav.Link as={Link} to="/allServices"  className="mr-3"><strong>All Services</strong></Nav.Link>
+              <Nav.Link as={Link} to="/allServices"  className="mr-3"><strong>All Bikes</strong></Nav.Link>
                         {
                             isSignedIn ?  <ProfilePopper /> : <Button as={Link} to='/login' variant="info" className='main-button'>Login</Button>
                         }

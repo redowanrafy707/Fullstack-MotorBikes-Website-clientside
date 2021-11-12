@@ -5,7 +5,7 @@ import React, { useContext } from 'react';
 import { Image } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logo.png';
+// import logo from '../../../images/logo.png';
 import './SideBar.css';
 import SideBarSpinner from './SideBarSpinner';
 
@@ -15,7 +15,7 @@ const SideBar = ({ show, adminLoading }) => {
     return (
         <nav id="sidebar" className={show ? "active" : ""}>
             <div className="sidebar-header">
-                <Image className='d-inline-block image' src={logo}  alt='...' />
+                {/* <Image className='d-inline-block image' src={logo}  alt='...' /> */}
                 <h4 className='d-inline-block'>Moto Hub</h4>
             </div>
             {adminLoading ? <SideBarSpinner /> :

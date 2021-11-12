@@ -1,5 +1,6 @@
 .contact-container {
-  background-image: url("../../../images/contact-bg.png");
+  /* background-image: url("../../../images/contact-bg.png"); */
+  background-color: #2BAABE;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +23,7 @@
 .contact-group textarea {
   width: 100%;
   border: 2px solid #fafafc;
-  background: #a7a7ec;
+  background: whitesmoke;
   padding: 10px;
   border-radius: 5px;
   transition: 0.3s;

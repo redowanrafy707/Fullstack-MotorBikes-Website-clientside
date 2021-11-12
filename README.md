@@ -1,15 +1,12 @@
-### [Moto Repair](https://moto-repair.web.app/)
+Live Link of this Web Application - https://moto-hub-547b0.web.app/
 
-###
-
-<img src="https://i.ibb.co/DCXLG4S/Moto-Repair.png" alt="Moto-Repair" border="0" />
 
 ### About This Site:
 
-- [x] This is a Responsive MERN-Stack web applications for motorcycle parts repair.
-- [x] In this site user can take our service, see his order list & reviews our site.
+- [x] This is a Responsive MERN-Stack web applications for Motor Bikes.
+- [x] In this site user can Buy Brand New Motor Bikes on Low Price, see his order list & reviews our site.
 - [x] If user want any services he must be authenticate with google or facebook.
-- [x] In this site i implement stripe payment gateway. Without payment he/she can't take our service.
+
 - [x] User can also cancelled his order. But he/she can't cancel his first order. If he/she want to cancel his order he need to order more then one services.
 - [x] There is a admin panel where admin can add more admins, add more services, update order condition of users. Admin can also delete any services & reviews.
 - [x] There is also a test admin. Where you can add service & change the order condition of any user.
