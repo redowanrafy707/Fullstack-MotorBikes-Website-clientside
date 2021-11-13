@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
 import SwiperCore, { Autoplay, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import spinner from '../../../images/review-loder.gif';
 import Testimonial from '../Testimonial/Testimonial';
 import './Testimonials.css';
 
@@ -23,8 +22,8 @@ const Testimonials = () => {
         <section id="reviews" className="testimonials p-md-3">
             <div className="my-5 py-4">
                 <div className="review-title text-center">
-                    <span>What Our Clients Says</span>
-                    <h3>Testimonials</h3>
+                    <span>What Our Customers Says</span>
+                    <h3>Reviews</h3>
                 </div>
                 <div>
                     {testimonials.length > 0 ?

@@ -21,7 +21,7 @@ const ServiceDetail = ({ service }) => {
                             </Card.Body>  
                             <Card.Footer className='d-flex justify-content-between align-items-center border-0'>
                                 <h5>{price}</h5>
-                                <Button  variant='info'  as={Link} to="/dashboard/book" onClick={() => setSelectedService(service)} className="main-button">Buy Now</Button>            
+                                <Button  variant='dark'  as={Link} to="/dashboard/book" onClick={() => setSelectedService(service)} className="main-button">Buy Now</Button>            
                             </Card.Footer>
                     </Card>
         </Col>
