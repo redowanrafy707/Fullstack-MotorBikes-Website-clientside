@@ -1,5 +1,5 @@
 import React from 'react';
-import Contact from '../Components/HomeComponents/Contact/Contact';
+// import Contact from '../Components/HomeComponents/Contact/Contact';
 import Footer from '../Components/HomeComponents/Footer/Footer';
 import Header from '../Components/HomeComponents/Header/Header';
 import Partners from '../Components/HomeComponents/Partners/Partners';
@@ -15,7 +15,7 @@ const Home = () => {
          
             <Testimonials />
             <Partners />
-            <Contact />
+            {/* <Contact /> */}
             <Footer />
 
         </main>
