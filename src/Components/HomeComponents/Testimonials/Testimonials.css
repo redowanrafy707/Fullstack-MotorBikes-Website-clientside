@@ -4,6 +4,9 @@
   background-size: cover;
   padding: 70px 0;
 }
+#reviews{
+  margin-top: 80px;
+}
 
 .testimonials > div {
   position: relative;
