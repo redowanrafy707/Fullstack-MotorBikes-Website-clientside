@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className="footer-right">
                     <p className="footer-company-about">
                         <span>About Us</span>
-                        Over several months this past spring, national correspondent Beth Hawkins tracked the groundbreaking integration efforts of the 78207, the zip code located on the Dhaka FarmGate.
+                        BikeDekho is a web portal under the renowned GirnarSoft group. We are a team who believe that the customer is king and strive to make sure you are treated like a king. Our efforts and drive doesn’t just come from one person but from all 
                     </p>
                     <div className="footer-icons">
                         <FontAwesomeIcon className="icon" icon={faFacebook} size='3x' />
