@@ -128,11 +128,11 @@ const LoginModal = () => {
                         <div className="img">
                             <div className="img__text m--up">
                                 <h2>New here?</h2>
-                                <p>Sign up and discover great amount of new opportunities!</p>
+                                <p>Sign up </p>
                             </div>
                             <div className="img__text m--in">
-                                <h2>One of us?</h2>
-                                <p>If you already has an account, just sign in. We've missed you!</p>
+                                
+                                <p>If you already has an account, just sign in. </p>
                             </div>
                             <div onClick={() => setNewUser(!newUser)} className="img__btn">
                                 <span className="m--up">Sign Up</span>

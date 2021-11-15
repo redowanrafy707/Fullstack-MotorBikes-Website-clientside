@@ -1,13 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
-
-.copyright {
-  text-align: center;
-  background: aliceblue;
-}
-
-.copyright a:hover {
-  color: tomato;
-  transition: 2s;
+* {
+  font-family: Open Sans;
 }
 
 .footer-link a {
@@ -20,13 +14,6 @@
   transition: 1s;
 }  
 
-
- 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
-* {
-  font-family: Open Sans;
-}
 
 section {
   width: 100%;

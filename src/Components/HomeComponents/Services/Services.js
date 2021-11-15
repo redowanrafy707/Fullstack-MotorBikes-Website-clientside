@@ -33,7 +33,7 @@ const Services = () => {
                             </div>
                     }
                     <Link>
-                    <Button className="mt-5 justify-content-center align-item-center main-button" as={Link} to='/allServices' variant="info" > See All Bikes</Button>
+                    <Button className="mt-5 justify-content-center align-item-center main-button" as={Link} to='/allServices' variant="dark" > See All Bikes</Button>
                     </Link>
                 </Row>
                 
