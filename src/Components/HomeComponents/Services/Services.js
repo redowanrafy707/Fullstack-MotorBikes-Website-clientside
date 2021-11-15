@@ -32,8 +32,9 @@ const Services = () => {
                                 {/* <img className='img-fluid' src={spinner} alt="..." /> */}
                             </div>
                     }
-                    <Button className="mt-5 justify-content-center align-item-center main-button" as={Link} to='/allServices' variant="info" >All Bikes</Button>
-
+                    <Link>
+                    <Button className="mt-5 justify-content-center align-item-center main-button" as={Link} to='/allServices' variant="info" > See All Bikes</Button>
+                    </Link>
                 </Row>
                 
             </Container>

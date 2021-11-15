@@ -6,7 +6,6 @@ import { Button, Container, Table } from 'react-bootstrap';
 import toast from 'react-hot-toast';
 import swal from 'sweetalert';
 import { UserContext } from '../../../App';
-import TableSpinner from '../TableSpinner/TableSpinner';
 import './BookList.css';
 
 
@@ -72,8 +71,7 @@ const BookList = () => {
     return (
         <Container>
             <div className="shadow p-5 bg-white" style={{ borderRadius: "15px" }}>
-                {
-                    orders.length > 0 ?
+                
                         <Table className='table-style' hover responsive >
                             <thead className="bg-light ">
                                 <tr>
@@ -106,9 +104,9 @@ const BookList = () => {
                                         </tbody>)
                                 })
                             }
-                        </Table> : <TableSpinner />
-                }
-            </div>>
+                        </Table>
+                
+            </div>
         </Container>
     );
 };

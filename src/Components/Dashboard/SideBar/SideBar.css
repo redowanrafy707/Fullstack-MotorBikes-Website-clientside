@@ -45,9 +45,9 @@
 }
 
 .link-active {
-  color: #17a2b8 !important;
+ 
   font-weight: 500;
-  border-left: 5px solid #17a2b8;
+  
 }
 
 a,
@@ -90,7 +90,7 @@ a[data-toggle="collapse"] {
 #sidebar ul.back-button a:hover,
 a.back-button:focus,
 a.back-button:active {
-  background-color: #067586 !important;
+  background-color: black !important;
   margin-right: 0 !important;
 }
 

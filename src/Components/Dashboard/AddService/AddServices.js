@@ -92,7 +92,7 @@ const AddServices = () => {
 
                         </Form.Row>
                         <div className="text-center mt-4">
-                            <Button type="submit" variant='info' disabled={isButtonDisable} className='main-button'>Add Service</Button>
+                            <Button type="submit" variant='dark' disabled={isButtonDisable} className='main-button'>Add Service</Button>
                         </div>
                     </div>
                 </Form>
