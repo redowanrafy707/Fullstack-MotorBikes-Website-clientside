@@ -3,12 +3,19 @@ Live Link of this Web Application - https://moto-hub-547b0.web.app/
 
 ### About This Site:
 
-* This is a Responsive MERN-Stack web applications for Motor Bikes.
-* In this site user can Buy Brand New Motor Bikes on Low Price, see his order list & reviews our site.
-* If user want any services he must be authenticate with google or facebook.
+* This is a website for Motor Bikes.
 
-* User can also cancelled his order. But he/she can't cancel his first order. If he/she want to cancel his order he need to order more then one services.
+* In this site user can Buy Motor Bikes , see his order list & reviews our site.
+
+* If can Login with eamil password and google also
+
+* User can also cancelled order in dashboard of order
+
 * There is a admin panel where admin can add more admins, add more services, update order condition of users. Admin can also delete any services & reviews.
-* There is also a test admin. Where you can add service & change the order condition of any user.
+
+* There is also a test admin(admin@admin.com). Where you can add service & change the order condition of any user.
+
 * Test admin can't add more admin, delete core 6 services & our users reviews. But test admin can delete his added services.
+
+* Hope you will leave a review
 
